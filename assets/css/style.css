@@ -2,8 +2,8 @@ html {
 
   }
   body {
-
+    background-image: url("../images/christmas-colour.png");
   }
 .container, .container-fluid {
-    background-image: url("../images/christmas-colour.png");
+    
 }

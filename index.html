@@ -6,26 +6,40 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+
         <div class="container-fluid">
+
+            <!-- this code is based off the 4.X documentation example but I still don't understand how it works -->
             <div class="row bg-light">
-                <div class="col-md-1">
-                    <!-- empty -->                    
+                <div class="col-md-1 bg">
+
                 </div>
-                <div class="col-md-10 navbar">
-                    <div class="navbar-brand" style="background-color: red;">Brandon Howell</div>
-                    <!-- <div class="navbar-nav">
-                        stuff
-                    </div> -->
-                    <ul class="navbar-nav" style="background-color: blue;">
-                        <li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <div class="col-md-10 px-0">
+
+            <nav class="navbar navbar-expand-sm navbar-light bg-light px-0">
+                <a class="navbar-brand" href="#">Brandon Howell</a>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav ml-auto form-inline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>      
                     </ul>
                 </div>
-                <div class="col-md-1">
-                        <!-- empty -->                    
+            </nav>
+
                 </div>
-            </div> <!-- close navbar -->
+                <div class="col-md-1">
+
+                </div>
+
+            </div>
+
             <div class="row mt-3">
                 <div class="col-md-1">
                     <!-- empty -->                    
@@ -64,7 +78,7 @@
                     </form> -->
                     <!-- "Contact" Content -->
                     <!-- "Portfolio" Content -->
-
+                    
                     <!-- "Portfolio" Content -->
 
 
@@ -73,11 +87,14 @@
                     <!-- empty -->                    
                 </div>
             </div> <!-- close row 1 -->
-            <footer class="row">
+            
+        </div> <!-- close container -->
+
+        <footer class="row">
                 <div class="col-md-12 bg-secondary text-light text-center mt-3">
                         Copyright &copy; 2019
                 </div>
-            </footer> <!-- close row 2 -->
-        </div> <!-- close container -->
+        </footer> <!-- close row 2 -->
+
     </body>
 </html>
