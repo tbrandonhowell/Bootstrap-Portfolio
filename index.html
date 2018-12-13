@@ -10,24 +10,24 @@
         <div class="container-fluid">
 
             <!-- this code is based off the 4.X documentation example but I still don't understand how it works -->
-            <div class="row bg-light">
+            <div class="row bg-light border1">
                 <div class="col-md-1 bg">
 
                 </div>
-                <div class="col-md-10 px-0">
+                <div class="col-md-10 px-0 bg-light">
 
-            <nav class="navbar navbar-expand-sm navbar-light bg-light px-0">
-                <a class="navbar-brand" href="#">Brandon Howell</a>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
+                <p class="navbar-brand bg-primary text-white p-4 mb-0">Brandon Howell</p>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav ml-auto form-inline">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>      
                     </ul>
                 </div>
@@ -45,17 +45,17 @@
                     <!-- empty -->                    
                 </div>
                 
-                <div class="col-md-10 border bg-light">
+                <div class="col-md-10 border bg-white p-4">
                     <!-- "About Me" Content -->
-                    <h1 class="pb-3 my-3 border-bottom border-secondary">About Me</h1>
+                    <h1 class="pb-3 mb-3 text-secondary border2">About Me</h1>
                     <img class="rounded float-left mr-3 mb-3" alt="Me." src="assets/images/oranges.jpg"/>
-                    <p>
+                    <p class="normtext">
                         I started building websites back when the internet was young, before everyone who could hack a MySpace theme thought they were designers. Back when Netscape Navigator dominated and a 14.4 modem made you the envy of all your peers. Back when you'd rely on a webring footer to find cool new sites on the internet because search engines sucked. So yeah, get off my lawn, lol.
                     </p>
-                    <p>
+                    <p class="normtext">
                         A college education and a little freelance work brought about my first real gig at an online marketing agency doing SEO (search engine optimization) work. Like most people that work in SEO, I stumbled in to it because I had an interest in marketing as well as web design/development. I did agency SEO work for three years before moving in-house as a LAMP stack web developer and SEO at a laboratory equipment company. Through a combination of hard work and good opportunities, I eventually became vice president of that company. From there I moved back into agency life and built an SEO department from scratch.
                     </p>
-                    <p>
+                    <p class="normtext">
                         Given the prevalence of Javascript in modern web architecture, I'm enrolled in Bootcamp to get up-to-date on JS so that I can apply those skills as I lead teams of search engine optimization specialists and conversion rate optimization specialists in my current role. On this site you can find some of my coursework and projects.
                     </p>
                     <!-- "About Me" Content -->
@@ -87,14 +87,18 @@
                     <!-- empty -->                    
                 </div>
             </div> <!-- close row 1 -->
-            
+
         </div> <!-- close container -->
 
-        <footer class="row">
-                <div class="col-md-12 bg-secondary text-light text-center mt-3">
-                        Copyright &copy; 2019
+        <footer class="mt-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-light text-center normtext bg-dark">
+                            <small>Copyright &copy; 2019</small>
+                    </div>
                 </div>
-        </footer> <!-- close row 2 -->
+            </div>
+        </footer> 
 
     </body>
 </html>
