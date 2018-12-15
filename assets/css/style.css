@@ -49,6 +49,7 @@ footer div div div p {
 /* === Extra styling === */
 
 body {
+    /* I split my "body" attributes into two entries in the stylesheet so that I could more clearly notate what they were for (extra styling vs sticky footer), and it didn't seem to break anything. I understand that his normally wouldn't be what you'd want to do. */
     background-image: url("../images/christmas-colour.png");
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
