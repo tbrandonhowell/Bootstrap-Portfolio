@@ -1,51 +1,52 @@
 <!doctype html>
 <html>
     <head>
+        <title>Brandon Howell Portfolio</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
 
-        <div class="container-fluid">
+        <div class="container-fluid"> <!-- primary container -->
 
-            <!-- this code is based off the 4.X documentation example but I still don't understand how it works -->
             <div class="row bg-light border1">
-                <div class="col-md-1 bg">
 
-                </div>
+                <div class="col-md-1 bg"><!-- layout div --></div>
+
                 <div class="col-md-10 px-0 bg-light">
-
-            <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
-                <p class="navbar-brand bg-primary text-white p-4 mb-0">Brandon Howell</p>
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav ml-auto form-inline">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>      
-                    </ul>
-                </div>
-            </nav>
-
-                </div>
-                <div class="col-md-1">
-
-                </div>
-
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-md-1">
-                    <!-- empty -->                    
+                    <nav class="navbar navbar-expand-sm navbar-light bg-light p-0 pr-3">
+                        <p class="navbar-brand bg-primary text-white p-4 mb-0">Brandon Howell</p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto form-inline">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>      
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
                 
-                <div class="col-md-10 border bg-white p-4">
+                <div class="col-md-1"><!-- layout div --></div>
+
+            </div> <!-- close header row -->
+
+            <div class="row mt-3">
+
+                <div class="col-md-1"><!-- layout div --></div>
+                
+                <div class="col-md-10 border bg-white p-4 mb-3"> <!-- content block -->
+
                     <!-- "About Me" Content -->
                     <h1 class="pb-3 mb-3 text-secondary border2">About Me</h1>
                     <img class="rounded float-left mr-3 mb-3" alt="Me." src="assets/images/oranges.jpg"/>
@@ -59,42 +60,20 @@
                         Given the prevalence of Javascript in modern web architecture, I'm enrolled in Bootcamp to get up-to-date on JS so that I can apply those skills as I lead teams of search engine optimization specialists and conversion rate optimization specialists in my current role. On this site you can find some of my coursework and projects.
                     </p>
                     <!-- "About Me" Content -->
-                    <!-- "Contact" Content -->
-                    <!-- <h1 class="pb-3 my-3 border-bottom border-secondary">Contact Me</h1>
-                    <form>
-                        <div class="form-group">
-                            <label for="inputName">Name:</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="John Smith">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputName">Email:</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputMessage">Message:</label>
-                            <textarea class="form-control" id="inputMessage" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form> -->
-                    <!-- "Contact" Content -->
-                    <!-- "Portfolio" Content -->
-                    
-                    <!-- "Portfolio" Content -->
 
+                </div> <!-- close content block -->
 
-                </div>
-                <div class="col-md-1">
-                    <!-- empty -->                    
-                </div>
-            </div> <!-- close row 1 -->
+                <div class="col-md-1"><!-- layout div --></div>
 
-        </div> <!-- close container -->
+            </div> <!-- close content row -->
+
+        </div> <!-- close primary container -->
 
         <footer class="mt-4">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 text-light text-center normtext bg-dark">
-                            <small>Copyright &copy; 2019</small>
+                    <div class="col-md-12 text-light text-center normtext bg-dark p-0">
+                            <p><small>Copyright &copy; 2019</small></p>
                     </div>
                 </div>
             </div>
